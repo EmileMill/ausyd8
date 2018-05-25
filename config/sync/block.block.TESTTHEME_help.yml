@@ -1,0 +1,22 @@
+uuid: a1467a37-2798-4ebe-a155-a258b5762141
+langcode: fr
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - TESTTHEME
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: TESTTHEME_help
+theme: TESTTHEME
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Aide
+  provider: help
+  label_display: '0'
+visibility: {  }

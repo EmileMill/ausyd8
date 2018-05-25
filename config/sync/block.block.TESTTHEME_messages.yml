@@ -1,0 +1,22 @@
+uuid: 219f7067-de4d-4bad-9ff7-80a95be6c8c1
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - TESTTHEME
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: TESTTHEME_messages
+theme: TESTTHEME
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages de statut'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,14 @@
+uuid: 74a515e9-c850-401d-a100-8ce7975a3102
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.testprofil
+  module:
+    - user
+id: user_add_role_action.testprofil
+label: 'Add the TESTPROFIL role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: testprofil

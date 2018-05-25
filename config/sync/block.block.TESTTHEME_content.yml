@@ -1,0 +1,22 @@
+uuid: 0f2b9a4b-b753-40ef-a208-5c8514d1cd46
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - TESTTHEME
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: TESTTHEME_content
+theme: TESTTHEME
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenu de la page principale'
+  provider: system
+  label_display: '0'
+visibility: {  }

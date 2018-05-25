@@ -1,0 +1,30 @@
+uuid: 89920275-510f-4a31-b1fb-f0e2812fee9f
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_etat
+field_name: field_etat
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: created
+      label: Création
+    -
+      value: accepted
+      label: Accepté
+    -
+      value: refused
+      label: Refusé
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

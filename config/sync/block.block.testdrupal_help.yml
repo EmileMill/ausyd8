@@ -1,0 +1,22 @@
+uuid: 331429c4-35be-4018-b0f2-5029091857f2
+langcode: fr
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - testdrupal
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: testdrupal_help
+theme: testdrupal
+region: help
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

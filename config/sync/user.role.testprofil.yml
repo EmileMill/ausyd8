@@ -1,0 +1,16 @@
+uuid: 9e405506-04c4-4a16-929d-b2e7e89b80ba
+langcode: en
+status: true
+dependencies: {  }
+id: testprofil
+label: TESTPROFIL
+weight: 3
+is_admin: null
+permissions:
+  - 'create article content'
+  - 'delete own article content'
+  - 'delete own page content'
+  - 'delete own testcontenu content'
+  - 'edit own article content'
+  - 'edit own page content'
+  - 'edit own testcontenu content'

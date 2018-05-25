@@ -1,0 +1,25 @@
+uuid: 975317ce-5366-4c99-9bd4-8f7ad02a8427
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - testdrupal
+_core:
+  default_config_hash: Cy3vkpYrD1O5JG-BeEnokF0bByHYDEa8CBfWivB4_SQ
+id: testdrupal_branding
+theme: testdrupal
+region: navigation
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

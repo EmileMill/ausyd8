@@ -1,0 +1,20 @@
+uuid: fd0806b7-cb57-41cb-be65-777c4661f027
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - TESTTHEME
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: TESTTHEME_local_actions
+theme: TESTTHEME
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Actions d''administration principales'
+  provider: core
+  label_display: '0'
+visibility: {  }

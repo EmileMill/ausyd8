@@ -1,0 +1,23 @@
+uuid: 28d86c73-8741-4955-a3cd-da78863cdaea
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type
+    - node.type.testcontenu
+id: node.testcontenu.field_type
+field_name: field_type
+entity_type: node
+bundle: testcontenu
+label: Type
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Description
+  off_label: Image
+field_type: boolean

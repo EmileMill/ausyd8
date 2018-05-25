@@ -1,0 +1,44 @@
+<?php
+
+/**
+ * @file
+ * Contains ausy_test.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function ausy_test_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the ausy_test module.
+    case 'help.page.ausy_test':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('module de création de test') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+function ausy_test_install(){
+ 	// Create the taxonomy vocabulary.
+  $vocabulary = \Drupal\taxonomy\Entity\Vocabulary::create(array(
+    'vid' => 'pays',
+    'name' => t('Pays'),
+  ));
+  $vocabulary->save();
+//get countries list with country_manager service
+  $terms = \Drupal::service('country_manager')->getList();
+
+  foreach ($terms as $term_name) {
+    $term = \Drupal\taxonomy\Entity\Term::create([
+      'vid' => 'pays',
+      'name' => $term_name,
+    ]);
+    $term->save();
+  }
+
+ }

@@ -1,0 +1,22 @@
+uuid: f42890db-e404-4a7c-aed2-56d009c84a9b
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - TESTTHEME
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: TESTTHEME_local_tasks
+theme: TESTTHEME
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Onglets
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

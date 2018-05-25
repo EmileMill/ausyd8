@@ -1,0 +1,27 @@
+uuid: f0139205-be6f-49a6-811c-dbaca077e15c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.testcontenu.field_description
+    - field.field.node.testcontenu.field_imagetestcontenu
+    - field.field.node.testcontenu.field_pays
+    - field.field.node.testcontenu.field_type
+    - node.type.testcontenu
+  module:
+    - user
+id: node.testcontenu.teaser
+targetEntityType: node
+bundle: testcontenu
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_description: true
+  field_imagetestcontenu: true
+  field_pays: true
+  field_type: true
+  langcode: true

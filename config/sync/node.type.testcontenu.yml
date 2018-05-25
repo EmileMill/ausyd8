@@ -1,0 +1,18 @@
+uuid: 8ff273ad-50ac-4211-800e-8b6deb70492e
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: TESTCONTENU
+type: testcontenu
+description: 'Création de type de contenu test'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

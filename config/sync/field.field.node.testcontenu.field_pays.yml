@@ -1,0 +1,27 @@
+uuid: 32b8c1a0-374c-4ba8-b5ae-68b33a4d7bf9
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pays
+    - node.type.testcontenu
+id: node.testcontenu.field_pays
+field_name: field_pays
+entity_type: node
+bundle: testcontenu
+label: Pays
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles: {  }
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

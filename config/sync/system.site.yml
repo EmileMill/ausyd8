@@ -1,0 +1,14 @@
+uuid: ba564848-5051-4f94-afbc-081dd739b39b
+name: 'Ausy test technique'
+mail: emillogo@ausy-group.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: fr
+default_langcode: fr
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

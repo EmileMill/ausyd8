@@ -1,0 +1,5 @@
+name: 'ausy_test'
+type: module
+description: 'module de création de test'
+core: 8.x
+package: 'Custom'

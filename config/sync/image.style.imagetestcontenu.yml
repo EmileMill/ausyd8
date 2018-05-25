@@ -1,0 +1,14 @@
+uuid: 76dea3ed-cbdb-49b7-95cc-587401fa3819
+langcode: fr
+status: true
+dependencies: {  }
+name: imagetestcontenu
+label: imagetestcontenu
+effects:
+  f221d9d7-b050-47d8-ba55-74e0638f9e2b:
+    uuid: f221d9d7-b050-47d8-ba55-74e0638f9e2b
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 200
+      height: 200

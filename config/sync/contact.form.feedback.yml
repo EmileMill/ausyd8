@@ -1,0 +1,14 @@
+uuid: 09e69b8d-e113-42f7-a0da-1c8ec572ae37
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - emillogo@ausy-group.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''
